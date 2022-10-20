@@ -1,0 +1,73 @@
+.signin {
+   width: 500px;
+   margin: 0 auto;
+   padding: 30px;
+   border: 1px solid lightgray;
+   border-radius: 10px;
+}
+.main-input {
+   display: flex;
+   flex-direction: column;
+}
+.input {
+   display: flex;
+   margin-top: 40px;
+   border-bottom: 2px solid #000;
+   width: 100%;
+}
+.input > svg {
+   margin-right: 15px;
+   margin-left: 15px;
+}
+.input > input {
+   border: none;
+   outline: none;
+   width: 100%;
+   font-size: 20px;
+}
+form > p {
+   cursor: pointer;
+   color: red;
+   text-align: center;
+   margin-top: 15px;
+}
+.signinBtn {
+   width: 200px;
+   height: 40px;
+   border-radius: 10px;
+   background-color: red;
+   color: #fff;
+   font-size: 20px;
+   font-weight: bold;
+   border: none;
+   outline: none;
+   margin: 15px auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.signinBtn:hover {
+   background-color: rgb(203, 13, 13);
+}
+.google {
+   width: 300px;
+   border-radius: 50px;
+   border: 2px solid lightgray;
+   margin: 0 auto;
+   padding: 5px 20px;
+   box-shadow: 5px 5px 10px rgb(207, 207, 207);
+   cursor: pointer;
+}
+.google > img {
+   width: 30px;
+   height: 30px;
+}
+.google > span {
+   margin-left: 20px;
+}
+.google:hover {
+   background-color: rgb(240, 240, 240);
+}
+.google:active {
+   box-shadow: none;
+}

@@ -1,0 +1,119 @@
+.header {
+   display: flex;
+   padding: 10px;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 2px solid rgb(239, 239, 239);
+   position: sticky;
+   top: 0;
+   z-index: 1;
+   background-color: #fff;
+}
+.search-aria {
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+}
+
+.search > svg {
+   margin-right: 10px;
+   position: absolute;
+   margin-left: 20px;
+   margin-top: 17px;
+}
+.search > input {
+   width: 600px;
+   height: 50px;
+   border: 1px solid rgb(239, 239, 239);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+   border-radius: 10px;
+   padding-left: 50px;
+}
+.icon-right {
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(246, 246, 246);
+   border-radius: 10px;
+   cursor: pointer;
+}
+.icon-right:hover {
+   background-color: rgb(233, 233, 233);
+}
+.voice {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(246, 246, 246);
+   border-radius: 50%;
+   margin-left: 10px;
+   cursor: pointer;
+}
+.voice:hover {
+   background: rgb(233, 233, 233);
+}
+.aria-right {
+   display: flex;
+}
+.aria-right > svg {
+   margin: 0 15px;
+   cursor: pointer;
+   border-radius: 50%;
+}
+.aria-right > a > svg {
+   margin: 0 15px;
+   cursor: pointer;
+   border-radius: 50%;
+}
+.aria-right > span > svg {
+   margin: 0 15px;
+   cursor: pointer;
+   border-radius: 50%;
+}
+.aria-right > svg:hover {
+   background-color: rgb(233, 233, 233);
+}
+.logo {
+   display: flex;
+   flex-direction: row;
+   margin-top: 10px;
+   padding: 10px 0;
+}
+.logo svg {
+   margin: 0 20px;
+}
+.logo:hover {
+   cursor: pointer;
+}
+
+.logo > img {
+   width: 30px;
+   height: 30px;
+}
+.logo > span {
+   font-size: 20px;
+   font-weight: bold;
+   margin-left: 10px;
+}
+.user {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   position: relative;
+   overflow: hidden;
+   margin: 0 15px;
+   cursor: pointer;
+   background-color: rgb(245, 245, 245);
+}
+.user > img {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+}

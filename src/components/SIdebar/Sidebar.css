@@ -1,0 +1,27 @@
+.sidebar {
+   display: flex;
+   flex-direction: column;
+   padding: 10px 20px;
+}
+
+.sidebar-icons {
+   display: flex;
+   flex-direction: column;
+   position: sticky;
+   top: 0;
+}
+.icon {
+   display: flex;
+   cursor: pointer;
+   padding: 10px 0;
+}
+.icon svg {
+   margin: 0 20px;
+}
+.icon:hover {
+   background-color: rgb(239, 239, 239);
+   color: #000;
+}
+.icon > span {
+   color: #000;
+}

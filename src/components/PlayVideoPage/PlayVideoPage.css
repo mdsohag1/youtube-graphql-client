@@ -1,0 +1,108 @@
+.playvideo {
+   display: flex;
+   justify-content: space-evenly;
+   background-color: rgb(245, 245, 245);
+}
+.left {
+   width: auto;
+   padding-top: 20px;
+   padding-left: 60px;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.left > img,
+.left > video {
+   width: 1100px;
+   height: 650px;
+   border-radius: 10px;
+}
+
+.right {
+   width: 35rem;
+}
+.linkSection {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
+}
+.linkIcons {
+   display: flex;
+}
+.linkIcons > div {
+   margin-left: 25px;
+   cursor: pointer;
+}
+.linkIcons > div > svg {
+   margin-right: 10px;
+}
+.subscribe {
+   display: flex;
+   justify-content: space-between;
+}
+.videoLogo {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin-right: 20px;
+   cursor: pointer;
+}
+.videoLogo > img {
+   width: 100%;
+   border-radius: 50%;
+}
+.sub {
+   width: 150px;
+   border: none;
+   outline: none;
+   background-color: red;
+   color: #fff;
+   height: 40px;
+   border-radius: 10px;
+   font-weight: bold;
+}
+.sub:hover {
+   background-color: rgb(222, 3, 3);
+}
+.subscribed {
+   width: 150px;
+   border: none;
+   outline: none;
+   background-color: rgb(227, 227, 227);
+   color: #000;
+   height: 40px;
+   border-radius: 10px;
+   font-weight: bold;
+}
+.subscribed:hover {
+   background-color: rgb(202, 202, 202);
+}
+.description {
+   margin-left: 70px;
+   width: 1000px;
+}
+.comment > input {
+   border: none;
+   outline: none;
+   background-color: rgb(245, 245, 245);
+   width: 100%;
+   border-bottom: 1px solid lightgray;
+}
+.icon {
+   color: rgb(145, 145, 145);
+}
+.btnComment {
+   width: 150px;
+   height: 40px;
+   border-radius: 10px;
+   border: 1px solid gray;
+   transition: all 0.3s ease;
+   background-color: rgb(237, 237, 237);
+}
+.btnComment:hover {
+   background-color: black;
+   border: 1px solid black;
+   color: #fff;
+}

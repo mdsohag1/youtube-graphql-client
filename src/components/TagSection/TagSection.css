@@ -1,0 +1,29 @@
+.tag-section {
+   background-color: #fff;
+   display: flex;
+   padding: 10px;
+   align-items: center;
+   justify-content: center;
+   border-bottom: 2px solid rgb(239, 239, 239);
+   padding: 20px 0;
+   position: sticky;
+   top: 72px;
+   z-index: 1;
+}
+.tag-btn {
+   height: 30px;
+   border-radius: 50px;
+   outline: none;
+   padding: 8px 15px;
+   margin: 0 10px;
+   display: flex;
+   align-items: center;
+   border: 1px solid lightgray;
+}
+.tag-btn:hover {
+   background-color: rgb(225, 224, 224);
+}
+.active {
+   background-color: #000;
+   color: #fff;
+}

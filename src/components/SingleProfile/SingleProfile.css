@@ -1,0 +1,52 @@
+.cover {
+   width: 100%;
+   height: 300px;
+   overflow: hidden;
+}
+.cover > img {
+   width: 100%;
+   /* height: 100%; */
+}
+.prifileLogo {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.p-logo {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   margin-right: 20px;
+}
+.p-logo > img {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+}
+.p-div {
+   margin: 30px auto;
+   width: 80%;
+}
+.menubar {
+   display: flex;
+}
+.menubar > span {
+   margin: 20px;
+   font-weight: bold;
+   cursor: pointer;
+}
+.p-videos {
+   background-color: rgb(245, 245, 245);
+   padding: 20px;
+   display: flex;
+}
+.pv {
+   margin: 30px auto;
+   width: 80%;
+   display: flex;
+   flex-wrap: wrap;
+}
+.editProfile:hover {
+   background-color: rgb(241, 241, 241);
+   border-radius: 50px;
+}
